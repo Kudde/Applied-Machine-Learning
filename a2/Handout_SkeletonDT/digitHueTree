@@ -1,0 +1,2400 @@
+// The Decision Tree
+digraph {
+	0 [label="
+id: 0
+attribute: 26
+entropy: 0.9999285936642504
+classCounts: {0: 125, 1: 129, 2: 124, 3: 130, 4: 124, 5: 126, 6: 127, 7: 125, 8: 122, 9: 125}"]
+	1 [label="
+id: 1
+attribute: 43
+entropy: 0.7301155837865959
+classCounts: {2: 98, 3: 118, 8: 35, 7: 79, 9: 15, 1: 32, 6: 2, 0: 3, 5: 2}"]
+	0 -> 1
+	2 [label="
+id: 2
+attribute: 30
+entropy: 0.4895614886074221
+classCounts: {3: 116, 8: 13, 9: 15, 7: 7, 6: 1, 2: 4, 1: 7, 0: 3}"]
+	1 -> 2
+	3 [label="
+id: 3
+attribute: 63
+entropy: 0.40556366947742784
+classCounts: {3: 116, 8: 12, 9: 11, 7: 1, 6: 1, 2: 4, 1: 7, 0: 1}"]
+	2 -> 3
+	4 [label="
+id: 4
+attribute: 19
+entropy: 0.32166331688023236
+classCounts: {3: 116, 8: 12, 9: 11, 7: 1, 6: 1, 2: 2, 0: 1}"]
+	3 -> 4
+	5 [label="
+id: 5
+attribute: 27
+entropy: 0.1057217671399157
+classCounts: {3: 86, 7: 1, 6: 1, 2: 1, 0: 1}"]
+	4 -> 5
+	6 [label="
+id: 6
+attribute: 21
+entropy: 0.22314768695420553
+classCounts: {3: 31, 7: 1, 6: 1, 2: 1, 0: 1}"]
+	5 -> 6
+	7 [label="
+id: 7
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {6: 1, 2: 1}"]
+	6 -> 7
+	8 [label="
+id: 8
+label: 6"]
+	7 -> 8
+	9 [label="
+id: 9
+label: 2"]
+	7 -> 9
+	10 [label="
+id: 10
+label: 6"]
+	7 -> 10
+	11 [label="
+id: 11
+label: 3"]
+	6 -> 11
+	12 [label="
+id: 12
+attribute: 34
+entropy: 0.14515039953585213
+classCounts: {3: 23, 7: 1, 0: 1}"]
+	6 -> 12
+	13 [label="
+id: 13
+label: 3"]
+	12 -> 13
+	14 [label="
+id: 14
+attribute: 5
+entropy: 0.30102999566398114
+classCounts: {0: 1, 3: 1}"]
+	12 -> 14
+	15 [label="
+id: 15
+label: 0"]
+	14 -> 15
+	16 [label="
+id: 16
+label: 0"]
+	14 -> 16
+	17 [label="
+id: 17
+label: 3"]
+	14 -> 17
+	18 [label="
+id: 18
+label: 7"]
+	12 -> 18
+	19 [label="
+id: 19
+label: 3"]
+	5 -> 19
+	20 [label="
+id: 20
+label: 3"]
+	5 -> 20
+	21 [label="
+id: 21
+attribute: 20
+entropy: 0.3301701768713186
+classCounts: {3: 27, 9: 4, 8: 3, 2: 1}"]
+	4 -> 21
+	22 [label="
+id: 22
+attribute: 12
+entropy: 0.4771212547196624
+classCounts: {9: 1, 8: 1, 3: 1}"]
+	21 -> 22
+	23 [label="
+id: 23
+label: 8"]
+	22 -> 23
+	24 [label="
+id: 24
+label: 3"]
+	22 -> 24
+	25 [label="
+id: 25
+label: 9"]
+	22 -> 25
+	26 [label="
+id: 26
+label: 9"]
+	21 -> 26
+	27 [label="
+id: 27
+attribute: 42
+entropy: 0.17304051381036195
+classCounts: {3: 26, 8: 2, 2: 1}"]
+	21 -> 27
+	28 [label="
+id: 28
+label: 3"]
+	27 -> 28
+	29 [label="
+id: 29
+label: 3"]
+	27 -> 29
+	30 [label="
+id: 30
+attribute: 13
+entropy: 0.45814600780483383
+classCounts: {8: 2, 2: 1, 3: 2}"]
+	27 -> 30
+	31 [label="
+id: 31
+label: 2"]
+	30 -> 31
+	32 [label="
+id: 32
+label: 3"]
+	30 -> 32
+	33 [label="
+id: 33
+label: 8"]
+	30 -> 33
+	34 [label="
+id: 34
+attribute: 42
+entropy: 0.440057146783739
+classCounts: {3: 3, 8: 9, 9: 7}"]
+	4 -> 34
+	35 [label="
+id: 35
+attribute: 9
+entropy: 0.23004847928068484
+classCounts: {3: 2, 9: 7}"]
+	34 -> 35
+	36 [label="
+id: 36
+label: 9"]
+	35 -> 36
+	37 [label="
+id: 37
+label: 3"]
+	35 -> 37
+	38 [label="
+id: 38
+label: 9"]
+	35 -> 38
+	39 [label="
+id: 39
+label: 3"]
+	34 -> 39
+	40 [label="
+id: 40
+label: 8"]
+	34 -> 40
+	41 [label="
+id: 41
+attribute: 2
+entropy: 0.27643459094367495
+classCounts: {1: 1, 2: 2}"]
+	3 -> 41
+	42 [label="
+id: 42
+label: 1"]
+	41 -> 42
+	43 [label="
+id: 43
+label: 2"]
+	41 -> 43
+	44 [label="
+id: 44
+label: 2"]
+	41 -> 44
+	45 [label="
+id: 45
+label: 1"]
+	3 -> 45
+	46 [label="
+id: 46
+attribute: 28
+entropy: 0.526802492411967
+classCounts: {9: 4, 7: 1, 0: 2, 8: 1}"]
+	2 -> 46
+	47 [label="
+id: 47
+label: 0"]
+	46 -> 47
+	48 [label="
+id: 48
+label: 7"]
+	46 -> 48
+	49 [label="
+id: 49
+attribute: 2
+entropy: 0.21732201127364886
+classCounts: {9: 4, 8: 1}"]
+	46 -> 49
+	50 [label="
+id: 50
+label: 9"]
+	49 -> 50
+	51 [label="
+id: 51
+label: 9"]
+	49 -> 51
+	52 [label="
+id: 52
+label: 8"]
+	49 -> 52
+	53 [label="
+id: 53
+label: 7"]
+	2 -> 53
+	54 [label="
+id: 54
+attribute: 38
+entropy: 0.6058561348699565
+classCounts: {8: 16, 7: 21, 1: 3, 2: 25, 6: 1, 3: 1, 5: 1}"]
+	1 -> 54
+	55 [label="
+id: 55
+attribute: 30
+entropy: 0.5972626240507842
+classCounts: {8: 16, 7: 8, 1: 3, 2: 25, 6: 1, 3: 1, 5: 1}"]
+	54 -> 55
+	56 [label="
+id: 56
+attribute: 35
+entropy: 0.5227099245996505
+classCounts: {8: 15, 7: 1, 1: 3, 2: 25, 6: 1, 3: 1, 5: 1}"]
+	55 -> 56
+	57 [label="
+id: 57
+label: 2"]
+	56 -> 57
+	58 [label="
+id: 58
+attribute: 3
+entropy: 0.27643459094367495
+classCounts: {2: 2, 5: 1}"]
+	56 -> 58
+	59 [label="
+id: 59
+label: 2"]
+	58 -> 59
+	60 [label="
+id: 60
+label: 5"]
+	58 -> 60
+	61 [label="
+id: 61
+label: 2"]
+	58 -> 61
+	62 [label="
+id: 62
+attribute: 36
+entropy: 0.555090746888058
+classCounts: {8: 15, 7: 1, 1: 3, 2: 9, 6: 1, 3: 1}"]
+	56 -> 62
+	63 [label="
+id: 63
+label: 2"]
+	62 -> 63
+	64 [label="
+id: 64
+label: 8"]
+	62 -> 64
+	65 [label="
+id: 65
+attribute: 18
+entropy: 0.44124689862925703
+classCounts: {8: 13, 7: 1, 1: 3, 6: 1, 3: 1}"]
+	62 -> 65
+	66 [label="
+id: 66
+attribute: 34
+entropy: 0.6361616729595498
+classCounts: {7: 1, 1: 3, 8: 3, 6: 1, 3: 1}"]
+	65 -> 66
+	67 [label="
+id: 67
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {1: 1, 3: 1}"]
+	66 -> 67
+	68 [label="
+id: 68
+label: 1"]
+	67 -> 68
+	69 [label="
+id: 69
+label: 3"]
+	67 -> 69
+	70 [label="
+id: 70
+label: 1"]
+	67 -> 70
+	71 [label="
+id: 71
+label: 8"]
+	66 -> 71
+	72 [label="
+id: 72
+attribute: 13
+entropy: 0.4515449934959717
+classCounts: {7: 1, 1: 2, 6: 1}"]
+	66 -> 72
+	73 [label="
+id: 73
+label: 6"]
+	72 -> 73
+	74 [label="
+id: 74
+label: 7"]
+	72 -> 74
+	75 [label="
+id: 75
+label: 1"]
+	72 -> 75
+	76 [label="
+id: 76
+label: 8"]
+	65 -> 76
+	77 [label="
+id: 77
+label: 8"]
+	65 -> 77
+	78 [label="
+id: 78
+attribute: 2
+entropy: 0.24421905028821553
+classCounts: {7: 3, 8: 1}"]
+	55 -> 78
+	79 [label="
+id: 79
+label: 7"]
+	78 -> 79
+	80 [label="
+id: 80
+label: 7"]
+	78 -> 80
+	81 [label="
+id: 81
+label: 8"]
+	78 -> 81
+	82 [label="
+id: 82
+label: 7"]
+	55 -> 82
+	83 [label="
+id: 83
+label: 7"]
+	54 -> 83
+	84 [label="
+id: 84
+label: 2"]
+	54 -> 84
+	85 [label="
+id: 85
+attribute: 37
+entropy: 0.521632107573976
+classCounts: {2: 69, 7: 51, 8: 6, 1: 22, 5: 1, 3: 1}"]
+	1 -> 85
+	86 [label="
+id: 86
+attribute: 44
+entropy: 0.31939266479941353
+classCounts: {2: 62, 8: 2, 1: 12, 5: 1, 3: 1, 7: 1}"]
+	85 -> 86
+	87 [label="
+id: 87
+label: 2"]
+	86 -> 87
+	88 [label="
+id: 88
+attribute: 34
+entropy: 0.15966813930949603
+classCounts: {2: 20, 1: 1, 7: 1}"]
+	86 -> 88
+	89 [label="
+id: 89
+label: 2"]
+	88 -> 89
+	90 [label="
+id: 90
+label: 2"]
+	88 -> 90
+	91 [label="
+id: 91
+attribute: 5
+entropy: 0.30102999566398114
+classCounts: {1: 1, 7: 1}"]
+	88 -> 91
+	92 [label="
+id: 92
+label: 1"]
+	91 -> 92
+	93 [label="
+id: 93
+label: 1"]
+	91 -> 93
+	94 [label="
+id: 94
+label: 7"]
+	91 -> 94
+	95 [label="
+id: 95
+attribute: 10
+entropy: 0.5234185181765546
+classCounts: {8: 2, 2: 5, 1: 11, 5: 1, 3: 1}"]
+	86 -> 95
+	96 [label="
+id: 96
+label: 1"]
+	95 -> 96
+	97 [label="
+id: 97
+attribute: 13
+entropy: 0.27643459094367495
+classCounts: {8: 2, 1: 1}"]
+	95 -> 97
+	98 [label="
+id: 98
+label: 8"]
+	97 -> 98
+	99 [label="
+id: 99
+label: 1"]
+	97 -> 99
+	100 [label="
+id: 100
+label: 8"]
+	97 -> 100
+	101 [label="
+id: 101
+attribute: 19
+entropy: 0.3458337512028148
+classCounts: {2: 5, 5: 1, 3: 1}"]
+	95 -> 101
+	102 [label="
+id: 102
+label: 2"]
+	101 -> 102
+	103 [label="
+id: 103
+label: 3"]
+	101 -> 103
+	104 [label="
+id: 104
+label: 5"]
+	101 -> 104
+	105 [label="
+id: 105
+attribute: 60
+entropy: 0.5721589730727287
+classCounts: {2: 6, 8: 3, 7: 8, 1: 9}"]
+	85 -> 105
+	106 [label="
+id: 106
+label: 7"]
+	105 -> 106
+	107 [label="
+id: 107
+attribute: 20
+entropy: 0.45814600780483383
+classCounts: {2: 2, 1: 2, 8: 1}"]
+	105 -> 107
+	108 [label="
+id: 108
+attribute: 3
+entropy: 0.30102999566398114
+classCounts: {2: 1, 8: 1}"]
+	107 -> 108
+	109 [label="
+id: 109
+label: 2"]
+	108 -> 109
+	110 [label="
+id: 110
+label: 8"]
+	108 -> 110
+	111 [label="
+id: 111
+label: 2"]
+	108 -> 111
+	112 [label="
+id: 112
+label: 2"]
+	107 -> 112
+	113 [label="
+id: 113
+label: 1"]
+	107 -> 113
+	114 [label="
+id: 114
+attribute: 19
+entropy: 0.4273290264037899
+classCounts: {8: 2, 2: 4, 1: 7}"]
+	105 -> 114
+	115 [label="
+id: 115
+label: 2"]
+	114 -> 115
+	116 [label="
+id: 116
+label: 8"]
+	114 -> 116
+	117 [label="
+id: 117
+attribute: 18
+entropy: 0.16362920197946884
+classCounts: {8: 1, 1: 7}"]
+	114 -> 117
+	118 [label="
+id: 118
+label: 1"]
+	117 -> 118
+	119 [label="
+id: 119
+label: 8"]
+	117 -> 119
+	120 [label="
+id: 120
+label: 1"]
+	117 -> 120
+	121 [label="
+id: 121
+attribute: 53
+entropy: 0.13817984273730322
+classCounts: {7: 42, 2: 1, 8: 1, 1: 1}"]
+	85 -> 121
+	122 [label="
+id: 122
+label: 7"]
+	121 -> 122
+	123 [label="
+id: 123
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {2: 1, 1: 1}"]
+	121 -> 123
+	124 [label="
+id: 124
+label: 2"]
+	123 -> 124
+	125 [label="
+id: 125
+label: 1"]
+	123 -> 125
+	126 [label="
+id: 126
+label: 2"]
+	123 -> 126
+	127 [label="
+id: 127
+label: 8"]
+	121 -> 127
+	128 [label="
+id: 128
+attribute: 60
+entropy: 0.9411298148313614
+classCounts: {4: 6, 7: 28, 1: 36, 2: 23, 6: 10, 9: 35, 8: 36, 0: 26, 5: 12, 3: 11}"]
+	0 -> 128
+	129 [label="
+id: 129
+attribute: 52
+entropy: 0.33070948495203545
+classCounts: {7: 26, 1: 1, 5: 4, 8: 1, 0: 1}"]
+	128 -> 129
+	130 [label="
+id: 130
+label: 7"]
+	129 -> 130
+	131 [label="
+id: 131
+attribute: 19
+entropy: 0.37294643990319076
+classCounts: {7: 8, 1: 1, 5: 4}"]
+	129 -> 131
+	132 [label="
+id: 132
+label: 7"]
+	131 -> 132
+	133 [label="
+id: 133
+attribute: 58
+entropy: 0.4126972515042213
+classCounts: {1: 1, 5: 1, 7: 3}"]
+	131 -> 133
+	134 [label="
+id: 134
+label: 1"]
+	133 -> 134
+	135 [label="
+id: 135
+label: 7"]
+	133 -> 135
+	136 [label="
+id: 136
+label: 5"]
+	133 -> 136
+	137 [label="
+id: 137
+label: 5"]
+	131 -> 137
+	138 [label="
+id: 138
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {8: 1, 0: 1}"]
+	129 -> 138
+	139 [label="
+id: 139
+label: 8"]
+	138 -> 139
+	140 [label="
+id: 140
+label: 8"]
+	138 -> 140
+	141 [label="
+id: 141
+label: 0"]
+	138 -> 141
+	142 [label="
+id: 142
+attribute: 6
+entropy: 0.7472444069162136
+classCounts: {2: 3, 8: 9, 7: 1, 1: 4, 5: 4, 0: 3, 9: 1}"]
+	128 -> 142
+	143 [label="
+id: 143
+attribute: 33
+entropy: 0.662259767182312
+classCounts: {2: 3, 8: 9, 7: 1, 1: 4, 0: 3, 9: 1}"]
+	142 -> 143
+	144 [label="
+id: 144
+attribute: 54
+entropy: 0.6246595844041574
+classCounts: {2: 3, 8: 9, 7: 1, 1: 4, 0: 1, 9: 1}"]
+	143 -> 144
+	145 [label="
+id: 145
+attribute: 35
+entropy: 0.5338939349725212
+classCounts: {8: 8, 7: 1, 1: 4, 0: 1, 9: 1}"]
+	144 -> 145
+	146 [label="
+id: 146
+label: 0"]
+	145 -> 146
+	147 [label="
+id: 147
+label: 1"]
+	145 -> 147
+	148 [label="
+id: 148
+attribute: 10
+entropy: 0.4480907630687955
+classCounts: {8: 8, 7: 1, 1: 3, 9: 1}"]
+	145 -> 148
+	149 [label="
+id: 149
+attribute: 5
+entropy: 0.24421905028821553
+classCounts: {7: 1, 1: 3}"]
+	148 -> 149
+	150 [label="
+id: 150
+label: 1"]
+	149 -> 150
+	151 [label="
+id: 151
+label: 1"]
+	149 -> 151
+	152 [label="
+id: 152
+label: 7"]
+	149 -> 152
+	153 [label="
+id: 153
+label: 8"]
+	148 -> 153
+	154 [label="
+id: 154
+attribute: 50
+entropy: 0.17811125397113373
+classCounts: {8: 6, 9: 1}"]
+	148 -> 154
+	155 [label="
+id: 155
+label: 9"]
+	154 -> 155
+	156 [label="
+id: 156
+label: 8"]
+	154 -> 156
+	157 [label="
+id: 157
+label: 8"]
+	154 -> 157
+	158 [label="
+id: 158
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {2: 1, 8: 1}"]
+	144 -> 158
+	159 [label="
+id: 159
+label: 8"]
+	158 -> 159
+	160 [label="
+id: 160
+label: 2"]
+	158 -> 160
+	161 [label="
+id: 161
+label: 2"]
+	158 -> 161
+	162 [label="
+id: 162
+label: 2"]
+	144 -> 162
+	163 [label="
+id: 163
+label: 0"]
+	143 -> 163
+	164 [label="
+id: 164
+label: 8"]
+	143 -> 164
+	165 [label="
+id: 165
+label: 8"]
+	142 -> 165
+	166 [label="
+id: 166
+label: 5"]
+	142 -> 166
+	167 [label="
+id: 167
+attribute: 36
+entropy: 0.8891314070547379
+classCounts: {4: 6, 1: 31, 6: 10, 7: 1, 9: 34, 0: 22, 8: 26, 5: 4, 2: 20, 3: 11}"]
+	128 -> 167
+	168 [label="
+id: 168
+attribute: 27
+entropy: 0.5373675589441436
+classCounts: {4: 1, 9: 18, 0: 22, 6: 2, 2: 2, 8: 1, 5: 1}"]
+	167 -> 168
+	169 [label="
+id: 169
+label: 0"]
+	168 -> 169
+	170 [label="
+id: 170
+attribute: 20
+entropy: 0.5785580060704263
+classCounts: {6: 1, 8: 1, 9: 2, 0: 1}"]
+	168 -> 170
+	171 [label="
+id: 171
+attribute: 13
+entropy: 0.30102999566398114
+classCounts: {6: 1, 0: 1}"]
+	170 -> 171
+	172 [label="
+id: 172
+label: 6"]
+	171 -> 172
+	173 [label="
+id: 173
+label: 0"]
+	171 -> 173
+	174 [label="
+id: 174
+label: 6"]
+	171 -> 174
+	175 [label="
+id: 175
+label: 9"]
+	170 -> 175
+	176 [label="
+id: 176
+label: 8"]
+	170 -> 176
+	177 [label="
+id: 177
+attribute: 21
+entropy: 0.37612502264712117
+classCounts: {4: 1, 9: 16, 6: 1, 2: 2, 5: 1}"]
+	168 -> 177
+	178 [label="
+id: 178
+attribute: 2
+entropy: 0.5785580060704263
+classCounts: {4: 1, 6: 1, 2: 2, 5: 1}"]
+	177 -> 178
+	179 [label="
+id: 179
+attribute: 3
+entropy: 0.30102999566398114
+classCounts: {4: 1, 6: 1}"]
+	178 -> 179
+	180 [label="
+id: 180
+label: 4"]
+	179 -> 180
+	181 [label="
+id: 181
+label: 6"]
+	179 -> 181
+	182 [label="
+id: 182
+label: 4"]
+	179 -> 182
+	183 [label="
+id: 183
+label: 5"]
+	178 -> 183
+	184 [label="
+id: 184
+label: 2"]
+	178 -> 184
+	185 [label="
+id: 185
+label: 9"]
+	177 -> 185
+	186 [label="
+id: 186
+label: 9"]
+	177 -> 186
+	187 [label="
+id: 187
+attribute: 46
+entropy: 0.713026052012023
+classCounts: {8: 5, 2: 9, 9: 13, 5: 2, 3: 6, 1: 4}"]
+	167 -> 187
+	188 [label="
+id: 188
+attribute: 34
+entropy: 0.6647334105983895
+classCounts: {8: 3, 2: 8, 5: 2, 3: 1, 9: 1, 1: 4}"]
+	187 -> 188
+	189 [label="
+id: 189
+attribute: 9
+entropy: 0.5278363456714854
+classCounts: {8: 1, 2: 8, 5: 1, 3: 1, 1: 3}"]
+	188 -> 189
+	190 [label="
+id: 190
+attribute: 12
+entropy: 0.6406175022772587
+classCounts: {8: 1, 5: 1, 3: 1, 2: 1, 1: 3}"]
+	189 -> 190
+	191 [label="
+id: 191
+label: 1"]
+	190 -> 191
+	192 [label="
+id: 192
+label: 3"]
+	190 -> 192
+	193 [label="
+id: 193
+attribute: 2
+entropy: 0.6020599913279623
+classCounts: {8: 1, 5: 1, 2: 1, 1: 1}"]
+	190 -> 193
+	194 [label="
+id: 194
+attribute: 3
+entropy: 0.30102999566398114
+classCounts: {2: 1, 1: 1}"]
+	193 -> 194
+	195 [label="
+id: 195
+label: 2"]
+	194 -> 195
+	196 [label="
+id: 196
+label: 1"]
+	194 -> 196
+	197 [label="
+id: 197
+label: 2"]
+	194 -> 197
+	198 [label="
+id: 198
+label: 8"]
+	193 -> 198
+	199 [label="
+id: 199
+label: 5"]
+	193 -> 199
+	200 [label="
+id: 200
+label: 2"]
+	189 -> 200
+	201 [label="
+id: 201
+label: 2"]
+	189 -> 201
+	202 [label="
+id: 202
+label: 8"]
+	188 -> 202
+	203 [label="
+id: 203
+attribute: 5
+entropy: 0.4771212547196624
+classCounts: {9: 1, 5: 1, 1: 1}"]
+	188 -> 203
+	204 [label="
+id: 204
+label: 1"]
+	203 -> 204
+	205 [label="
+id: 205
+label: 9"]
+	203 -> 205
+	206 [label="
+id: 206
+label: 5"]
+	203 -> 206
+	207 [label="
+id: 207
+attribute: 29
+entropy: 0.529961811176979
+classCounts: {8: 2, 3: 5, 2: 1, 9: 5}"]
+	187 -> 207
+	208 [label="
+id: 208
+attribute: 9
+entropy: 0.4771212547196624
+classCounts: {8: 1, 2: 1, 3: 1}"]
+	207 -> 208
+	209 [label="
+id: 209
+label: 2"]
+	208 -> 209
+	210 [label="
+id: 210
+label: 8"]
+	208 -> 210
+	211 [label="
+id: 211
+label: 3"]
+	208 -> 211
+	212 [label="
+id: 212
+attribute: 2
+entropy: 0.37677792283166867
+classCounts: {3: 4, 8: 1, 9: 1}"]
+	207 -> 212
+	213 [label="
+id: 213
+label: 3"]
+	212 -> 213
+	214 [label="
+id: 214
+attribute: 5
+entropy: 0.30102999566398114
+classCounts: {8: 1, 9: 1}"]
+	212 -> 214
+	215 [label="
+id: 215
+label: 9"]
+	214 -> 215
+	216 [label="
+id: 216
+label: 8"]
+	214 -> 216
+	217 [label="
+id: 217
+label: 8"]
+	214 -> 217
+	218 [label="
+id: 218
+label: 3"]
+	212 -> 218
+	219 [label="
+id: 219
+label: 9"]
+	207 -> 219
+	220 [label="
+id: 220
+label: 9"]
+	187 -> 220
+	221 [label="
+id: 221
+attribute: 10
+entropy: 0.7722930680754928
+classCounts: {1: 27, 6: 8, 7: 1, 8: 20, 5: 1, 2: 9, 4: 5, 3: 5, 9: 3}"]
+	167 -> 221
+	222 [label="
+id: 222
+attribute: 41
+entropy: 0.6480550788965223
+classCounts: {1: 12, 6: 5, 7: 1, 4: 5, 2: 1, 8: 1, 9: 1}"]
+	221 -> 222
+	223 [label="
+id: 223
+attribute: 20
+entropy: 0.4787787469514016
+classCounts: {1: 12, 6: 5, 7: 1, 2: 1, 9: 1}"]
+	222 -> 223
+	224 [label="
+id: 224
+attribute: 13
+entropy: 0.37677792283166867
+classCounts: {7: 1, 6: 4, 9: 1}"]
+	223 -> 224
+	225 [label="
+id: 225
+label: 6"]
+	224 -> 225
+	226 [label="
+id: 226
+label: 9"]
+	224 -> 226
+	227 [label="
+id: 227
+label: 7"]
+	224 -> 227
+	228 [label="
+id: 228
+attribute: 3
+entropy: 0.4771212547196624
+classCounts: {6: 1, 2: 1, 1: 1}"]
+	223 -> 228
+	229 [label="
+id: 229
+label: 2"]
+	228 -> 229
+	230 [label="
+id: 230
+label: 6"]
+	228 -> 230
+	231 [label="
+id: 231
+label: 1"]
+	228 -> 231
+	232 [label="
+id: 232
+label: 1"]
+	223 -> 232
+	233 [label="
+id: 233
+attribute: 5
+entropy: 0.24421905028821553
+classCounts: {4: 3, 8: 1}"]
+	222 -> 233
+	234 [label="
+id: 234
+label: 4"]
+	233 -> 234
+	235 [label="
+id: 235
+label: 8"]
+	233 -> 235
+	236 [label="
+id: 236
+label: 4"]
+	233 -> 236
+	237 [label="
+id: 237
+label: 4"]
+	222 -> 237
+	238 [label="
+id: 238
+attribute: 44
+entropy: 0.26141225944862223
+classCounts: {8: 1, 1: 13, 3: 2}"]
+	221 -> 238
+	239 [label="
+id: 239
+attribute: 18
+entropy: 0.27643459094367495
+classCounts: {8: 1, 3: 2}"]
+	238 -> 239
+	240 [label="
+id: 240
+label: 3"]
+	239 -> 240
+	241 [label="
+id: 241
+label: 8"]
+	239 -> 241
+	242 [label="
+id: 242
+label: 3"]
+	239 -> 242
+	243 [label="
+id: 243
+label: 1"]
+	238 -> 243
+	244 [label="
+id: 244
+label: 1"]
+	238 -> 244
+	245 [label="
+id: 245
+attribute: 33
+entropy: 0.6523511159921582
+classCounts: {8: 18, 5: 1, 2: 8, 3: 3, 6: 3, 1: 2, 9: 2}"]
+	221 -> 245
+	246 [label="
+id: 246
+attribute: 42
+entropy: 0.5769168954360795
+classCounts: {8: 18, 5: 1, 2: 8, 3: 3, 1: 2, 9: 2}"]
+	245 -> 246
+	247 [label="
+id: 247
+attribute: 12
+entropy: 0.7165809794208762
+classCounts: {5: 1, 2: 6, 3: 3, 8: 3, 1: 2, 9: 2}"]
+	246 -> 247
+	248 [label="
+id: 248
+label: 1"]
+	247 -> 248
+	249 [label="
+id: 249
+attribute: 29
+entropy: 0.5785580060704263
+classCounts: {5: 1, 3: 1, 8: 2, 9: 1}"]
+	247 -> 249
+	250 [label="
+id: 250
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {5: 1, 3: 1}"]
+	249 -> 250
+	251 [label="
+id: 251
+label: 3"]
+	250 -> 251
+	252 [label="
+id: 252
+label: 5"]
+	250 -> 252
+	253 [label="
+id: 253
+label: 5"]
+	250 -> 253
+	254 [label="
+id: 254
+label: 8"]
+	249 -> 254
+	255 [label="
+id: 255
+label: 9"]
+	249 -> 255
+	256 [label="
+id: 256
+attribute: 3
+entropy: 0.5622138221009683
+classCounts: {2: 6, 3: 2, 8: 1, 9: 1, 1: 1}"]
+	247 -> 256
+	257 [label="
+id: 257
+label: 2"]
+	256 -> 257
+	258 [label="
+id: 258
+label: 3"]
+	256 -> 258
+	259 [label="
+id: 259
+attribute: 27
+entropy: 0.4354750091835624
+classCounts: {2: 6, 8: 1, 9: 1, 1: 1}"]
+	256 -> 259
+	260 [label="
+id: 260
+label: 2"]
+	259 -> 260
+	261 [label="
+id: 261
+attribute: 19
+entropy: 0.4771212547196624
+classCounts: {2: 1, 9: 1, 1: 1}"]
+	259 -> 261
+	262 [label="
+id: 262
+label: 9"]
+	261 -> 262
+	263 [label="
+id: 263
+label: 2"]
+	261 -> 263
+	264 [label="
+id: 264
+label: 1"]
+	261 -> 264
+	265 [label="
+id: 265
+label: 8"]
+	259 -> 265
+	266 [label="
+id: 266
+attribute: 20
+entropy: 0.27643459094367495
+classCounts: {2: 2, 8: 4}"]
+	246 -> 266
+	267 [label="
+id: 267
+label: 8"]
+	266 -> 267
+	268 [label="
+id: 268
+label: 8"]
+	266 -> 268
+	269 [label="
+id: 269
+label: 2"]
+	266 -> 269
+	270 [label="
+id: 270
+label: 8"]
+	246 -> 270
+	271 [label="
+id: 271
+label: 6"]
+	245 -> 271
+	272 [label="
+id: 272
+label: 8"]
+	245 -> 272
+	273 [label="
+id: 273
+attribute: 21
+entropy: 0.8714982059648638
+classCounts: {0: 96, 1: 61, 5: 112, 6: 115, 9: 75, 4: 118, 7: 18, 8: 51, 2: 3, 3: 1}"]
+	0 -> 273
+	274 [label="
+id: 274
+attribute: 58
+entropy: 0.635631925316618
+classCounts: {6: 113, 5: 104, 9: 1, 4: 55, 1: 19, 0: 5, 7: 4, 2: 2, 8: 4, 3: 1}"]
+	273 -> 274
+	275 [label="
+id: 275
+attribute: 61
+entropy: 0.533943130840689
+classCounts: {6: 105, 4: 55, 1: 11, 0: 3, 5: 10, 7: 3, 2: 1, 8: 3}"]
+	274 -> 275
+	276 [label="
+id: 276
+attribute: 59
+entropy: 0.422922562750912
+classCounts: {4: 47, 1: 4, 0: 3, 5: 6, 7: 3, 6: 1}"]
+	275 -> 276
+	277 [label="
+id: 277
+label: 4"]
+	276 -> 277
+	278 [label="
+id: 278
+label: 4"]
+	276 -> 278
+	279 [label="
+id: 279
+attribute: 5
+entropy: 0.6334898575013272
+classCounts: {4: 16, 1: 4, 0: 3, 5: 6, 7: 3, 6: 1}"]
+	276 -> 279
+	280 [label="
+id: 280
+attribute: 27
+entropy: 0.3473933631642709
+classCounts: {4: 15, 1: 3, 5: 1, 6: 1}"]
+	279 -> 280
+	281 [label="
+id: 281
+label: 4"]
+	280 -> 281
+	282 [label="
+id: 282
+label: 4"]
+	280 -> 282
+	283 [label="
+id: 283
+attribute: 25
+entropy: 0.4126972515042213
+classCounts: {1: 3, 5: 1, 6: 1}"]
+	280 -> 283
+	284 [label="
+id: 284
+label: 1"]
+	283 -> 284
+	285 [label="
+id: 285
+label: 6"]
+	283 -> 285
+	286 [label="
+id: 286
+label: 5"]
+	283 -> 286
+	287 [label="
+id: 287
+attribute: 13
+entropy: 0.4515449934959717
+classCounts: {0: 2, 4: 1, 1: 1}"]
+	279 -> 287
+	288 [label="
+id: 288
+label: 4"]
+	287 -> 288
+	289 [label="
+id: 289
+label: 1"]
+	287 -> 289
+	290 [label="
+id: 290
+label: 0"]
+	287 -> 290
+	291 [label="
+id: 291
+attribute: 22
+entropy: 0.40688542212387135
+classCounts: {0: 1, 7: 3, 5: 5}"]
+	279 -> 291
+	292 [label="
+id: 292
+label: 5"]
+	291 -> 292
+	293 [label="
+id: 293
+label: 0"]
+	291 -> 293
+	294 [label="
+id: 294
+label: 7"]
+	291 -> 294
+	295 [label="
+id: 295
+attribute: 46
+entropy: 0.5974205287946055
+classCounts: {4: 8, 6: 14, 1: 4, 8: 2, 5: 3}"]
+	275 -> 295
+	296 [label="
+id: 296
+attribute: 59
+entropy: 0.5810255099397071
+classCounts: {4: 7, 6: 1, 1: 4, 8: 1, 5: 2}"]
+	295 -> 296
+	297 [label="
+id: 297
+label: 4"]
+	296 -> 297
+	298 [label="
+id: 298
+attribute: 20
+entropy: 0.4515449934959717
+classCounts: {6: 1, 1: 2, 4: 1}"]
+	296 -> 298
+	299 [label="
+id: 299
+label: 6"]
+	298 -> 299
+	300 [label="
+id: 300
+label: 4"]
+	298 -> 300
+	301 [label="
+id: 301
+label: 1"]
+	298 -> 301
+	302 [label="
+id: 302
+attribute: 45
+entropy: 0.45814600780483383
+classCounts: {1: 2, 8: 1, 5: 2}"]
+	296 -> 302
+	303 [label="
+id: 303
+label: 1"]
+	302 -> 303
+	304 [label="
+id: 304
+label: 8"]
+	302 -> 304
+	305 [label="
+id: 305
+label: 5"]
+	302 -> 305
+	306 [label="
+id: 306
+attribute: 42
+entropy: 0.40843137199002016
+classCounts: {6: 7, 8: 1, 4: 1, 5: 1}"]
+	295 -> 306
+	307 [label="
+id: 307
+attribute: 10
+entropy: 0.4771212547196624
+classCounts: {8: 1, 4: 1, 5: 1}"]
+	306 -> 307
+	308 [label="
+id: 308
+label: 4"]
+	307 -> 308
+	309 [label="
+id: 309
+label: 5"]
+	307 -> 309
+	310 [label="
+id: 310
+label: 8"]
+	307 -> 310
+	311 [label="
+id: 311
+label: 6"]
+	306 -> 311
+	312 [label="
+id: 312
+label: 6"]
+	306 -> 312
+	313 [label="
+id: 313
+label: 6"]
+	295 -> 313
+	314 [label="
+id: 314
+attribute: 20
+entropy: 0.13525884123021187
+classCounts: {6: 90, 5: 1, 2: 1, 1: 3, 8: 1}"]
+	275 -> 314
+	315 [label="
+id: 315
+attribute: 9
+entropy: 0.026755454406543814
+classCounts: {6: 88, 5: 1}"]
+	314 -> 315
+	316 [label="
+id: 316
+label: 6"]
+	315 -> 316
+	317 [label="
+id: 317
+label: 5"]
+	315 -> 317
+	318 [label="
+id: 318
+label: 6"]
+	315 -> 318
+	319 [label="
+id: 319
+attribute: 4
+entropy: 0.30102999566398114
+classCounts: {6: 2, 1: 2}"]
+	314 -> 319
+	320 [label="
+id: 320
+label: 1"]
+	319 -> 320
+	321 [label="
+id: 321
+label: 1"]
+	319 -> 321
+	322 [label="
+id: 322
+label: 6"]
+	319 -> 322
+	323 [label="
+id: 323
+attribute: 34
+entropy: 0.4771212547196624
+classCounts: {2: 1, 1: 1, 8: 1}"]
+	314 -> 323
+	324 [label="
+id: 324
+label: 2"]
+	323 -> 324
+	325 [label="
+id: 325
+label: 8"]
+	323 -> 325
+	326 [label="
+id: 326
+label: 1"]
+	323 -> 326
+	327 [label="
+id: 327
+attribute: 62
+entropy: 0.4799888544207665
+classCounts: {5: 33, 6: 8, 0: 2, 1: 6, 2: 1, 8: 1}"]
+	274 -> 327
+	328 [label="
+id: 328
+attribute: 42
+entropy: 0.33258571827936845
+classCounts: {5: 33, 6: 5, 0: 2, 1: 1, 8: 1}"]
+	327 -> 328
+	329 [label="
+id: 329
+label: 5"]
+	328 -> 329
+	330 [label="
+id: 330
+attribute: 36
+entropy: 0.4150551890657122
+classCounts: {0: 2, 5: 4, 8: 1}"]
+	328 -> 330
+	331 [label="
+id: 331
+label: 0"]
+	330 -> 331
+	332 [label="
+id: 332
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {5: 1, 8: 1}"]
+	330 -> 332
+	333 [label="
+id: 333
+label: 5"]
+	332 -> 333
+	334 [label="
+id: 334
+label: 5"]
+	332 -> 334
+	335 [label="
+id: 335
+label: 8"]
+	332 -> 335
+	336 [label="
+id: 336
+label: 5"]
+	330 -> 336
+	337 [label="
+id: 337
+attribute: 4
+entropy: 0.1956762467702946
+classCounts: {6: 5, 1: 1}"]
+	328 -> 337
+	338 [label="
+id: 338
+label: 6"]
+	337 -> 338
+	339 [label="
+id: 339
+label: 6"]
+	337 -> 339
+	340 [label="
+id: 340
+label: 1"]
+	337 -> 340
+	341 [label="
+id: 341
+label: 6"]
+	327 -> 341
+	342 [label="
+id: 342
+attribute: 4
+entropy: 0.1956762467702946
+classCounts: {1: 5, 2: 1}"]
+	327 -> 342
+	343 [label="
+id: 343
+label: 1"]
+	342 -> 343
+	344 [label="
+id: 344
+label: 2"]
+	342 -> 344
+	345 [label="
+id: 345
+label: 1"]
+	342 -> 345
+	346 [label="
+id: 346
+attribute: 5
+entropy: 0.1603442396784633
+classCounts: {5: 61, 9: 1, 1: 2, 3: 1, 7: 1}"]
+	274 -> 346
+	347 [label="
+id: 347
+attribute: 17
+entropy: 0.6197647364793457
+classCounts: {9: 1, 5: 4, 1: 2, 3: 1, 7: 1}"]
+	346 -> 347
+	348 [label="
+id: 348
+attribute: 37
+entropy: 0.6778079184956498
+classCounts: {9: 1, 1: 2, 5: 1, 3: 1, 7: 1}"]
+	347 -> 348
+	349 [label="
+id: 349
+label: 1"]
+	348 -> 349
+	350 [label="
+id: 350
+label: 7"]
+	348 -> 350
+	351 [label="
+id: 351
+attribute: 11
+entropy: 0.4771212547196624
+classCounts: {9: 1, 5: 1, 3: 1}"]
+	348 -> 351
+	352 [label="
+id: 352
+label: 5"]
+	351 -> 352
+	353 [label="
+id: 353
+label: 3"]
+	351 -> 353
+	354 [label="
+id: 354
+label: 9"]
+	351 -> 354
+	355 [label="
+id: 355
+label: 5"]
+	347 -> 355
+	356 [label="
+id: 356
+label: 5"]
+	347 -> 356
+	357 [label="
+id: 357
+label: 5"]
+	346 -> 357
+	358 [label="
+id: 358
+label: 5"]
+	346 -> 358
+	359 [label="
+id: 359
+attribute: 50
+entropy: 0.8245145726587082
+classCounts: {1: 14, 5: 7, 0: 23, 4: 27, 8: 14, 7: 6, 6: 2, 2: 1, 9: 7}"]
+	273 -> 359
+	360 [label="
+id: 360
+attribute: 42
+entropy: 0.5899539260215837
+classCounts: {1: 6, 4: 24, 5: 1, 7: 6, 2: 1, 9: 4, 8: 1}"]
+	359 -> 360
+	361 [label="
+id: 361
+attribute: 14
+entropy: 0.7287424728311679
+classCounts: {1: 6, 5: 1, 7: 6, 2: 1, 9: 4, 8: 1, 4: 8}"]
+	360 -> 361
+	362 [label="
+id: 362
+attribute: 19
+entropy: 0.667390088693323
+classCounts: {1: 6, 5: 1, 2: 1, 8: 1, 9: 2, 4: 3}"]
+	361 -> 362
+	363 [label="
+id: 363
+label: 2"]
+	362 -> 363
+	364 [label="
+id: 364
+label: 4"]
+	362 -> 364
+	365 [label="
+id: 365
+attribute: 20
+entropy: 0.47290325063701755
+classCounts: {1: 6, 5: 1, 8: 1, 9: 2}"]
+	362 -> 365
+	366 [label="
+id: 366
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {5: 1, 9: 1}"]
+	365 -> 366
+	367 [label="
+id: 367
+label: 5"]
+	366 -> 367
+	368 [label="
+id: 368
+label: 5"]
+	366 -> 368
+	369 [label="
+id: 369
+label: 9"]
+	366 -> 369
+	370 [label="
+id: 370
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {8: 1, 9: 1}"]
+	365 -> 370
+	371 [label="
+id: 371
+label: 8"]
+	370 -> 371
+	372 [label="
+id: 372
+label: 8"]
+	370 -> 372
+	373 [label="
+id: 373
+label: 9"]
+	370 -> 373
+	374 [label="
+id: 374
+label: 1"]
+	365 -> 374
+	375 [label="
+id: 375
+label: 4"]
+	361 -> 375
+	376 [label="
+id: 376
+attribute: 35
+entropy: 0.3685794545915666
+classCounts: {7: 6, 9: 2, 4: 1}"]
+	361 -> 376
+	377 [label="
+id: 377
+label: 7"]
+	376 -> 377
+	378 [label="
+id: 378
+attribute: 3
+entropy: 0.30102999566398114
+classCounts: {9: 1, 4: 1}"]
+	376 -> 378
+	379 [label="
+id: 379
+label: 9"]
+	378 -> 379
+	380 [label="
+id: 380
+label: 4"]
+	378 -> 380
+	381 [label="
+id: 381
+label: 9"]
+	378 -> 381
+	382 [label="
+id: 382
+label: 9"]
+	376 -> 382
+	383 [label="
+id: 383
+label: 4"]
+	360 -> 383
+	384 [label="
+id: 384
+label: 4"]
+	360 -> 384
+	385 [label="
+id: 385
+attribute: 59
+entropy: 0.7342928794901582
+classCounts: {5: 5, 4: 3, 9: 2, 8: 4, 1: 4, 6: 1}"]
+	359 -> 385
+	386 [label="
+id: 386
+attribute: 4
+entropy: 0.27643459094367495
+classCounts: {4: 2, 9: 1}"]
+	385 -> 386
+	387 [label="
+id: 387
+label: 4"]
+	386 -> 387
+	388 [label="
+id: 388
+label: 9"]
+	386 -> 388
+	389 [label="
+id: 389
+label: 4"]
+	386 -> 389
+	390 [label="
+id: 390
+label: 1"]
+	385 -> 390
+	391 [label="
+id: 391
+attribute: 52
+entropy: 0.6814744657982446
+classCounts: {5: 5, 4: 1, 9: 1, 8: 4, 1: 2, 6: 1}"]
+	385 -> 391
+	392 [label="
+id: 392
+attribute: 36
+entropy: 0.4771212547196624
+classCounts: {9: 1, 1: 1, 8: 1}"]
+	391 -> 392
+	393 [label="
+id: 393
+label: 9"]
+	392 -> 393
+	394 [label="
+id: 394
+label: 1"]
+	392 -> 394
+	395 [label="
+id: 395
+label: 8"]
+	392 -> 395
+	396 [label="
+id: 396
+attribute: 13
+entropy: 0.6406175022772586
+classCounts: {4: 1, 5: 1, 8: 3, 6: 1, 1: 1}"]
+	391 -> 396
+	397 [label="
+id: 397
+attribute: 4
+entropy: 0.4771212547196624
+classCounts: {4: 1, 6: 1, 1: 1}"]
+	396 -> 397
+	398 [label="
+id: 398
+label: 6"]
+	397 -> 398
+	399 [label="
+id: 399
+label: 4"]
+	397 -> 399
+	400 [label="
+id: 400
+label: 1"]
+	397 -> 400
+	401 [label="
+id: 401
+label: 5"]
+	396 -> 401
+	402 [label="
+id: 402
+label: 8"]
+	396 -> 402
+	403 [label="
+id: 403
+label: 5"]
+	391 -> 403
+	404 [label="
+id: 404
+attribute: 30
+entropy: 0.5060347921887964
+classCounts: {0: 23, 8: 9, 6: 1, 5: 1, 1: 4, 9: 1}"]
+	359 -> 404
+	405 [label="
+id: 405
+attribute: 19
+entropy: 0.5836005360685225
+classCounts: {8: 9, 6: 1, 5: 1, 1: 4, 9: 1, 0: 1}"]
+	404 -> 405
+	406 [label="
+id: 406
+label: 8"]
+	405 -> 406
+	407 [label="
+id: 407
+attribute: 13
+entropy: 0.6989700043360187
+classCounts: {6: 1, 5: 1, 8: 1, 9: 1, 0: 1}"]
+	405 -> 407
+	408 [label="
+id: 408
+label: 5"]
+	407 -> 408
+	409 [label="
+id: 409
+label: 9"]
+	407 -> 409
+	410 [label="
+id: 410
+attribute: 27
+entropy: 0.4771212547196624
+classCounts: {6: 1, 8: 1, 0: 1}"]
+	407 -> 410
+	411 [label="
+id: 411
+label: 0"]
+	410 -> 411
+	412 [label="
+id: 412
+label: 6"]
+	410 -> 412
+	413 [label="
+id: 413
+label: 8"]
+	410 -> 413
+	414 [label="
+id: 414
+label: 1"]
+	405 -> 414
+	415 [label="
+id: 415
+label: 0"]
+	404 -> 415
+	416 [label="
+id: 416
+label: 0"]
+	404 -> 416
+	417 [label="
+id: 417
+attribute: 28
+entropy: 0.7187779858856993
+classCounts: {0: 68, 9: 67, 4: 36, 1: 28, 7: 8, 8: 33, 5: 1}"]
+	273 -> 417
+	418 [label="
+id: 418
+attribute: 50
+entropy: 0.17344918311618163
+classCounts: {0: 68, 4: 4, 9: 2, 8: 1}"]
+	417 -> 418
+	419 [label="
+id: 419
+attribute: 10
+entropy: 0.526802492411967
+classCounts: {4: 4, 0: 1, 9: 2, 8: 1}"]
+	418 -> 419
+	420 [label="
+id: 420
+label: 4"]
+	419 -> 420
+	421 [label="
+id: 421
+attribute: 12
+entropy: 0.30102999566398114
+classCounts: {0: 1, 8: 1}"]
+	419 -> 421
+	422 [label="
+id: 422
+label: 8"]
+	421 -> 422
+	423 [label="
+id: 423
+label: 0"]
+	421 -> 423
+	424 [label="
+id: 424
+label: 0"]
+	421 -> 424
+	425 [label="
+id: 425
+label: 9"]
+	419 -> 425
+	426 [label="
+id: 426
+label: 0"]
+	418 -> 426
+	427 [label="
+id: 427
+label: 0"]
+	418 -> 427
+	428 [label="
+id: 428
+attribute: 33
+entropy: 0.6202897711430746
+classCounts: {7: 2, 8: 6, 1: 1, 9: 6, 4: 13, 5: 1}"]
+	417 -> 428
+	429 [label="
+id: 429
+attribute: 42
+entropy: 0.6318407574568841
+classCounts: {1: 1, 9: 6, 8: 5, 7: 1, 5: 1, 4: 1}"]
+	428 -> 429
+	430 [label="
+id: 430
+attribute: 44
+entropy: 0.6169465485853285
+classCounts: {1: 1, 9: 6, 7: 1, 5: 1, 8: 1, 4: 1}"]
+	429 -> 430
+	431 [label="
+id: 431
+label: 9"]
+	430 -> 431
+	432 [label="
+id: 432
+label: 5"]
+	430 -> 432
+	433 [label="
+id: 433
+attribute: 5
+entropy: 0.6020599913279623
+classCounts: {1: 1, 7: 1, 8: 1, 4: 1}"]
+	430 -> 433
+	434 [label="
+id: 434
+label: 4"]
+	433 -> 434
+	435 [label="
+id: 435
+label: 8"]
+	433 -> 435
+	436 [label="
+id: 436
+attribute: 3
+entropy: 0.30102999566398114
+classCounts: {1: 1, 7: 1}"]
+	433 -> 436
+	437 [label="
+id: 437
+label: 1"]
+	436 -> 437
+	438 [label="
+id: 438
+label: 7"]
+	436 -> 438
+	439 [label="
+id: 439
+label: 1"]
+	436 -> 439
+	440 [label="
+id: 440
+label: 8"]
+	429 -> 440
+	441 [label="
+id: 441
+label: 8"]
+	429 -> 441
+	442 [label="
+id: 442
+attribute: 5
+entropy: 0.27752801040644504
+classCounts: {7: 1, 8: 1, 4: 8}"]
+	428 -> 442
+	443 [label="
+id: 443
+label: 4"]
+	442 -> 443
+	444 [label="
+id: 444
+label: 8"]
+	442 -> 444
+	445 [label="
+id: 445
+label: 7"]
+	442 -> 445
+	446 [label="
+id: 446
+label: 4"]
+	428 -> 446
+	447 [label="
+id: 447
+attribute: 43
+entropy: 0.6120371855007422
+classCounts: {9: 59, 1: 27, 8: 26, 4: 19, 7: 6}"]
+	417 -> 447
+	448 [label="
+id: 448
+attribute: 44
+entropy: 0.2935747368273586
+classCounts: {9: 55, 1: 11, 8: 3, 4: 1}"]
+	447 -> 448
+	449 [label="
+id: 449
+attribute: 29
+entropy: 0.053961453050174926
+classCounts: {9: 36, 8: 1}"]
+	448 -> 449
+	450 [label="
+id: 450
+label: 8"]
+	449 -> 450
+	451 [label="
+id: 451
+label: 9"]
+	449 -> 451
+	452 [label="
+id: 452
+label: 9"]
+	449 -> 452
+	453 [label="
+id: 453
+attribute: 11
+entropy: 0.2327649264037233
+classCounts: {1: 1, 9: 11, 8: 1}"]
+	448 -> 453
+	454 [label="
+id: 454
+label: 1"]
+	453 -> 454
+	455 [label="
+id: 455
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {8: 1, 9: 1}"]
+	453 -> 455
+	456 [label="
+id: 456
+label: 9"]
+	455 -> 456
+	457 [label="
+id: 457
+label: 8"]
+	455 -> 457
+	458 [label="
+id: 458
+label: 8"]
+	455 -> 458
+	459 [label="
+id: 459
+label: 9"]
+	453 -> 459
+	460 [label="
+id: 460
+attribute: 18
+entropy: 0.43979400086720377
+classCounts: {1: 10, 9: 8, 8: 1, 4: 1}"]
+	448 -> 460
+	461 [label="
+id: 461
+label: 1"]
+	460 -> 461
+	462 [label="
+id: 462
+label: 1"]
+	460 -> 462
+	463 [label="
+id: 463
+attribute: 19
+entropy: 0.3845999673459024
+classCounts: {9: 8, 8: 1, 1: 1, 4: 1}"]
+	460 -> 463
+	464 [label="
+id: 464
+label: 9"]
+	463 -> 464
+	465 [label="
+id: 465
+attribute: 5
+entropy: 0.30102999566398114
+classCounts: {8: 1, 4: 1}"]
+	463 -> 465
+	466 [label="
+id: 466
+label: 4"]
+	465 -> 466
+	467 [label="
+id: 467
+label: 8"]
+	465 -> 467
+	468 [label="
+id: 468
+label: 8"]
+	465 -> 468
+	469 [label="
+id: 469
+attribute: 6
+entropy: 0.27643459094367495
+classCounts: {1: 1, 9: 2}"]
+	463 -> 469
+	470 [label="
+id: 470
+label: 1"]
+	469 -> 470
+	471 [label="
+id: 471
+label: 9"]
+	469 -> 471
+	472 [label="
+id: 472
+label: 9"]
+	469 -> 472
+	473 [label="
+id: 473
+attribute: 50
+entropy: 0.5094077005383457
+classCounts: {1: 7, 8: 12, 9: 2, 4: 3}"]
+	447 -> 473
+	474 [label="
+id: 474
+attribute: 20
+entropy: 0.5024733495693947
+classCounts: {1: 7, 9: 2, 4: 3, 8: 1}"]
+	473 -> 474
+	475 [label="
+id: 475
+attribute: 4
+entropy: 0.30102999566398114
+classCounts: {9: 2, 4: 2}"]
+	474 -> 475
+	476 [label="
+id: 476
+label: 9"]
+	475 -> 476
+	477 [label="
+id: 477
+label: 4"]
+	475 -> 477
+	478 [label="
+id: 478
+label: 9"]
+	475 -> 478
+	479 [label="
+id: 479
+attribute: 3
+entropy: 0.30102999566398114
+classCounts: {4: 1, 8: 1}"]
+	474 -> 479
+	480 [label="
+id: 480
+label: 4"]
+	479 -> 480
+	481 [label="
+id: 481
+label: 8"]
+	479 -> 481
+	482 [label="
+id: 482
+label: 4"]
+	479 -> 482
+	483 [label="
+id: 483
+label: 1"]
+	474 -> 483
+	484 [label="
+id: 484
+label: 8"]
+	473 -> 484
+	485 [label="
+id: 485
+label: 8"]
+	473 -> 485
+	486 [label="
+id: 486
+attribute: 38
+entropy: 0.6344954671805297
+classCounts: {9: 2, 8: 11, 4: 15, 7: 6, 1: 9}"]
+	447 -> 486
+	487 [label="
+id: 487
+attribute: 19
+entropy: 0.6388153039250286
+classCounts: {9: 2, 8: 11, 4: 4, 7: 6, 1: 9}"]
+	486 -> 487
+	488 [label="
+id: 488
+attribute: 60
+entropy: 0.46692707569272596
+classCounts: {8: 7, 9: 1, 7: 3, 4: 1}"]
+	487 -> 488
+	489 [label="
+id: 489
+attribute: 44
+entropy: 0.4126972515042213
+classCounts: {9: 1, 7: 3, 4: 1}"]
+	488 -> 489
+	490 [label="
+id: 490
+label: 7"]
+	489 -> 490
+	491 [label="
+id: 491
+label: 4"]
+	489 -> 491
+	492 [label="
+id: 492
+label: 9"]
+	489 -> 492
+	493 [label="
+id: 493
+label: 8"]
+	488 -> 493
+	494 [label="
+id: 494
+label: 8"]
+	488 -> 494
+	495 [label="
+id: 495
+attribute: 53
+entropy: 0.526802492411967
+classCounts: {9: 1, 8: 4, 7: 2, 4: 1}"]
+	487 -> 495
+	496 [label="
+id: 496
+attribute: 5
+entropy: 0.4515449934959717
+classCounts: {9: 1, 7: 2, 4: 1}"]
+	495 -> 496
+	497 [label="
+id: 497
+attribute: 2
+entropy: 0.30102999566398114
+classCounts: {7: 1, 4: 1}"]
+	496 -> 497
+	498 [label="
+id: 498
+label: 4"]
+	497 -> 498
+	499 [label="
+id: 499
+label: 7"]
+	497 -> 499
+	500 [label="
+id: 500
+label: 7"]
+	497 -> 500
+	501 [label="
+id: 501
+label: 9"]
+	496 -> 501
+	502 [label="
+id: 502
+label: 7"]
+	496 -> 502
+	503 [label="
+id: 503
+label: 8"]
+	495 -> 503
+	504 [label="
+id: 504
+label: 8"]
+	495 -> 504
+	505 [label="
+id: 505
+attribute: 13
+entropy: 0.3133276980241343
+classCounts: {4: 2, 7: 1, 1: 9}"]
+	487 -> 505
+	506 [label="
+id: 506
+attribute: 2
+entropy: 0.27643459094367495
+classCounts: {4: 2, 7: 1}"]
+	505 -> 506
+	507 [label="
+id: 507
+label: 4"]
+	506 -> 507
+	508 [label="
+id: 508
+label: 7"]
+	506 -> 508
+	509 [label="
+id: 509
+label: 4"]
+	506 -> 509
+	510 [label="
+id: 510
+label: 1"]
+	505 -> 510
+	511 [label="
+id: 511
+label: 1"]
+	505 -> 511
+	512 [label="
+id: 512
+label: 4"]
+	486 -> 512
+	513 [label="
+id: 513
+label: 4"]
+	486 -> 513
+}

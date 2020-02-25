@@ -1,0 +1,16 @@
+Confusion Matrix
+[[  0  78   0   0  97]
+ [  0  80   0   0 123]
+ [  0  64   0   0  94]
+ [  0  53   0   0  87]
+ [  0  82   0   0 107]]
+Classification Report
+             precision    recall  f1-score   support
+
+      Daisy       0.00      0.00      0.00       175
+  Dandelion       0.22      0.39      0.29       203
+       Rose       0.00      0.00      0.00       158
+  Sunflower       0.00      0.00      0.00       140
+      Tulip       0.21      0.57      0.31       189
+
+avg / total       0.10      0.22      0.13       865

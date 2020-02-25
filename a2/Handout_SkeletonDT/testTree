@@ -1,0 +1,64 @@
+// The Decision Tree
+digraph {
+	0 [label="
+id: 0
+attribute: size
+entropy: 0.9886994082884974
+classCounts: {'+': 9, '-': 7}"]
+	1 [label="
+id: 1
+attribute: shape
+entropy: 0.8112781244591328
+classCounts: {'+': 6, '-': 2}"]
+	0 -> 1
+	2 [label="
+id: 2
+attribute: color
+entropy: 0.9182958340544896
+classCounts: {'+': 4, '-': 2}"]
+	1 -> 2
+	3 [label="
+id: 3
+label: +"]
+	2 -> 3
+	4 [label="
+id: 4
+label: -"]
+	2 -> 4
+	5 [label="
+id: 5
+label: +"]
+	2 -> 5
+	6 [label="
+id: 6
+label: +"]
+	1 -> 6
+	7 [label="
+id: 7
+attribute: color
+entropy: 0.9544340029249649
+classCounts: {'-': 5, '+': 3}"]
+	0 -> 7
+	8 [label="
+id: 8
+attribute: shape
+entropy: 0.9852281360342516
+classCounts: {'+': 3, '-': 4}"]
+	7 -> 8
+	9 [label="
+id: 9
+label: -"]
+	8 -> 9
+	10 [label="
+id: 10
+label: +"]
+	8 -> 10
+	11 [label="
+id: 11
+label: -"]
+	7 -> 11
+	12 [label="
+id: 12
+label: -"]
+	7 -> 12
+}
